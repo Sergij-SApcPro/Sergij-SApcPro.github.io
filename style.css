@@ -1,0 +1,294 @@
+:root {
+    --yellow-color: #EEA619;
+    --dark-green-color: #005248;
+    --turquoise-color: #C3FCF2;
+    --glass-morphism: linear-gradient(94.78deg, rgba(195, 252, 242, 0.7) -0.33%, rgba(195, 252, 242, 0.2) 104.34%);
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Lexend Peta", "Lato", "FRBAmericanCursive-600-Semibold";
+    background: var(--turquoise-color);
+}
+
+.wrapper {
+    max-width: 1134px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(91.02deg, rgba(195, 252, 242, 0.7) 2.46%, rgba(195, 252, 242, 0.2) 101.73%);
+    border: 1px solid rgba(130, 130, 130, 0.63);
+    backdrop-filter: blur(30px);
+    border-radius: 24px;
+    align-items: center;
+    position: fixed;
+    width: 1134px;
+    top: 14px;
+    z-index: 100;
+    height: 60px;
+}
+
+header {
+    background: var(--yellow-color);
+    height: 100vh;
+    width: 100%
+}
+
+.translate {
+    position: relative;
+    padding: 8px;
+    top: 48px;
+    left: 499px;
+    width: 158px;
+    background: var(--dark-green-color);
+    box-shadow: 5px 6px 100px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 0px 0px 20px 20px;
+    height: 36px;
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-weight: normal;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--turquoise-color);
+}
+
+.fa-language {
+    position: relative;
+    left: 10px;
+    color: var(--yellow-color);
+}
+
+.backdrop {
+    position: relative;
+    top: 163px;
+    left: 10px;
+    width: 540px;
+    height: 310px;
+    background: linear-gradient(105.59deg, rgba(63, 61, 86, 0.7) 0.3%, rgba(207, 203, 255, 0.7) 0.31%, rgba(255, 223, 160, 0.14) 99.51%);
+    border: 1px solid rgba(141, 141, 141, 0.63);
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    transform: rotate(-6.16deg);
+    z-index: 2;
+}
+
+.underline {
+    position: relative;
+    background: transparent;
+    height: 8px;
+    width: 227px;
+    border-radius: 10px;
+    box-shadow: 0 55px 0 0 var(--dark-green-color);
+    bottom: 404px;
+    z-index: 2;
+    left: 63px;
+    bottom: 355px;
+}
+
+nav .logo {
+    width: 100px;
+    height: 100px;
+    left: 40px;
+    top: -15px;
+    box-shadow: 5px 6px 100px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+}
+
+nav ul {
+    position: relative;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li a {
+    font-family: Lato;
+    font-weight: normal;
+    font-size: 20px;
+    color: #2D504A;
+    text-decoration: none;
+}
+
+.sub-btn {
+    position: relative;
+    left: 150px;
+    padding: 8px;
+    color: var(--turquoise-color);
+    background: var(--dark-green-color);
+    border-radius: 163px;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: Lexend Peta;
+    letter-spacing: -0.13em;
+    text-decoration: none;
+}
+
+.follow-btn {
+    position: relative;
+    left: 114px;
+    padding: 8px;
+    color: var(--turquoise-color);
+    background: var(--dark-green-color);
+    border-radius: 163px;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: Lexend Peta;
+    letter-spacing: -0.13em;
+    text-decoration: none;
+}
+
+.fa-youtube {
+    color: var(--yellow-color)
+}
+
+.fa-plus-circle {
+    color: var(--yellow-color)
+}
+
+.btn-transparent {
+    position: relative;
+    padding: 8px;
+    border: 4px solid var(--turquoise-color);
+    border-radius: 163px;
+    text-decoration: none;
+    font-family: Lexend Peta;
+    font-weight: normal;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.13em;
+    color: var(--turquoise-color);
+}
+
+.btn-filled {
+    position: relative;
+    padding: 8px;
+    background: linear-gradient(94.78deg, rgba(195, 252, 242, 0.7) -0.33%, rgba(195, 252, 242, 0.2) 104.34%);
+    backdrop-filter: blur(4px);
+    border-radius: 163px;
+    font-family: Lexend Peta;
+    font-weight: normal;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.13em;
+    color: var(--dark-green-color);
+    text-decoration: none;
+}
+
+.btn-circle {
+    position: relative;
+    width:  63px;
+    height: 63px;
+    bottom: 12px;
+}
+
+.hero-btns {
+    position: relative;
+    bottom: 60px;
+    left: 60px;
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    list-style: none;
+    margin: 0;
+}
+
+.hero-circle {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    right: 40px;
+    bottom: 450px;
+    z-index: 1;
+}
+
+.hero-circle2 {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    left: 383px;
+    bottom: 240px;
+    z-index: 1;
+}
+
+.hero-section {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content:space-between ;
+    padding-top: 60px;
+}
+
+.hero-section .left h1 {
+    position: relative;
+    left: 63px;
+    bottom: 124px;
+    font-family: Lexend Peta;
+    font-weight: normal;
+    font-size: 54px;
+    letter-spacing: -0.11em;
+    color: var(--turquoise-color);
+    text-shadow: 0px 3px 40px rgba(47, 46, 65, 0.7);
+    z-index: 3;
+}
+
+.hero-txt {
+    position: relative;
+    bottom: 180px;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--turquoise-color);
+}
+
+.hero-section .left {
+    width: 457px;
+}
+
+.hero-img {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    left: 60px;
+    bottom: 40px;
+}
+
+/* About me Section */
+
+section {
+    margin-top: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Lexend Peta;
+    font-weight: normal;
+    font-size: 60px;
+    letter-spacing: -0.11em;
+    color: #000000;
+}
+
+section p {
+    font-family: Lato;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000000;
+}
