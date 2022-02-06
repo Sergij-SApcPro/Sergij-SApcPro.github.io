@@ -22,6 +22,13 @@ body {
     margin: 0 auto;
 }
 
+@font-face {
+    font-family: 'FRBAmericanCursive';
+    src: url('/fonts/FRBAmericanCursive-600-Semibold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -47,7 +54,7 @@ header {
     position: relative;
     padding: 8px;
     top: 48px;
-    left: 499px;
+    left: 480px;
     width: 158px;
     background: var(--dark-green-color);
     box-shadow: 5px 6px 100px 3px rgba(0, 0, 0, 0.3);
@@ -64,8 +71,7 @@ header {
 }
 
 .fa-language {
-    position: relative;
-    left: 10px;
+    padding: 4px;
     color: var(--yellow-color);
 }
 
@@ -127,7 +133,7 @@ nav ul li a {
 
 .sub-btn {
     position: relative;
-    left: 150px;
+    left: 120px;
     padding: 8px;
     color: var(--turquoise-color);
     background: var(--dark-green-color);
@@ -141,7 +147,7 @@ nav ul li a {
 
 .follow-btn {
     position: relative;
-    left: 114px;
+    left: 100px;
     padding: 8px;
     color: var(--turquoise-color);
     background: var(--dark-green-color);
@@ -281,7 +287,7 @@ h2 {
     text-align: center;
     font-family: Lexend Peta;
     font-weight: normal;
-    font-size: 60px;
+    font-size: 40px;
     letter-spacing: -0.11em;
     color: #000000;
 }
@@ -291,4 +297,132 @@ section p {
     font-weight: normal;
     font-size: 18px;
     color: #000000;
+}
+
+.about-me-card {
+    position: relative;
+    width: 750px;
+    height: 313px;
+    background: linear-gradient(100.7deg, rgba(238, 166, 25, 0.49) -11.92%, rgba(238, 166, 25, 0.14) 100.41%);
+    border: 5px solid #EEA619;
+    box-sizing: border-box;
+    backdrop-filter: blur(4px);
+    border-radius: 12px;
+    top: 12px;
+    left: 270px;
+    display: grid;
+    z-index: 2;
+}
+
+.about-me-section h3 {
+    font-family: FRBAmericanCursive;
+    font-size: 40px;
+    position: relative;
+    top: 0px;
+    left: 140px;
+}
+
+.about-me-section p {
+    position: relative;
+    left: 150px;
+    bottom: 40px;
+}
+
+.profile-pic {
+    position: absolute;
+    top: 833px;
+    left: 216.3px;
+    width: 257px;
+    height: 257px;
+    filter: drop-shadow(0px 8px 24px rgba(0, 0, 0, 0.08));
+    z-index: 3;
+}
+
+.profile-ellipse {
+    position: absolute;
+    top: 833px;
+    left: 220px;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+}
+
+.btn-social-links {
+    position: relative;
+    padding: 8px;
+    background: var(--yellow-color);
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 4px solid var(--dark-green-color);
+    text-decoration: none;
+    color: var(--dark-green-color);
+    bottom: 14px;
+    left: 780px;
+    z-index: 3;
+}
+
+.fa-link {
+    padding: 4px;
+}
+
+.about-me-circle {
+    position: absolute;
+    top: 740px;
+    left: 420px;
+    z-index: 1;
+}
+
+.about-me-circle2 {
+    position: absolute;
+    width:  120px;
+    height: 120px;
+    top: 740px;
+    right: 280px;
+    z-index: 1;
+}
+
+/*My Top Project*/
+
+.top-project img {
+    position: relative;
+    width: 800px;
+    left: 169px;
+}
+
+.project-info {
+    position: relative;
+    left: 174px;
+    bottom: 133px;
+    width: 790px;
+    height: 122.4px;
+    border: 1px solid rgba(126, 126, 126, 0.4);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    box-sizing: border-box;
+    backdrop-filter: blur(4px);
+    background: var(--glass-morphism);
+}
+
+.circle-btn {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    
+}
+
+.fa-external-link-alt {
+    position: relative;
+    bottom: 74px;
+    left: 690px;
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    color: var(--dark-green-color);
+    background: var(--yellow-color);
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 100px;
 }
