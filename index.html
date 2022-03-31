@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SApcPro</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Lexend+Peta&display=swap" rel="stylesheet">
@@ -20,15 +20,15 @@
             <nav>
                 <a href="index.html"><img src="images/logo.png" alt="" class="logo"></a>
                 
-                <a href="#" class="sub-btn">Subscribe <i class="fab fa-youtube"></i></a>
+                <a href="https://www.youtube.com/c/SApcProSergijAleksovski?sub_confirmation=1" class="sub-btn">Subscribe <i class="fab fa-youtube"></i></a>
 
-                <a href="#" class="follow-btn">Follow on Odysee <i class="fas fa-plus-circle"></i></a>
+                <a href="https://odysee.com/$/invite/@sapcpro:1" class="follow-btn">Follow on Odysee <i class="fas fa-plus-circle"></i></a>
 
                 <a href="#" class=translate> Македонски <i class="fa-solid fa-language"></i></a>
 
                 <ul>
                     <li>
-                        <a href="#">My Projects</a>
+                        <a href="https://github.com/Sergij-SApcPro">My Projects</a>
                     </li>
 
                     <li>
@@ -36,11 +36,11 @@
                     </li>
 
                     <li>
-                        <a href="#">About me</a>
+                        <a href="#about-me">About me</a>
                     </li>
 
                     <li>
-                        <a href="#">Contact me</a>
+                        <a href="#contact-me">Contact me</a>
                     </li>
                 </ul>
             </nav>
@@ -76,9 +76,9 @@
 
                     <ul class=hero-btns>
                         <li>
-                            <a href="#" class="btn-transparent">My Top Project</a>
+                            <a href="#my-top-project" class="btn-transparent">My Top Project</a>
                         <li>
-                            <a href="#" class="btn-filled">Videos on YouTube</a>
+                            <a href="https://www.youtube.com/c/SApcProSergijAleksovski/videos" class="btn-filled">Videos on YouTube</a>
                         </li>  
                     </ul>
 
@@ -90,32 +90,39 @@
 
     <!-- End of header -->
 
-    <div class="wrapper">
+    <div class="wrapper" id="about-me">
+        <h2 class="about-me-title">About me</h2>
         <section class="about-me-section">
-            <h2>About me</h2>
-            <img src="images/Profile Ellipse.svg" alt="" class=profile-ellipse>
-            <img src="images/profile-picture.svg" alt="" class=profile-pic>
-            <img src="images/Ellipse.svg" alt="" class=about-me-circle>
-            <img src="images/Ellipse.svg" alt=""class=about-me-circle2>
-            <div class=about-me-card>
-                <h3>Sergij Aleksovski</h3>
-                <p>
-                    &emsp;&emsp; Hi I'm Sergij Aleksovski, a 14 years old boy who learns and is <br>
-                    programming. I personally really like programming including fixing <br>
-                    computers and other devices. I also really like to design and I am a <br>
-                    creative person. <br>
-                    &emsp;&emsp; My YouTube channel currently has more than 300 subscribers. <br>
-                    I hope you will like my projects on GitHub, Btw I have only 3 <br>
-                    repositories now. Thanks for the attention!
-                </p>
+            
+            <div class="left">
+                
+                <img src="images/profile-picture.svg" alt="" class=profile-pic>
+                <img src="images/Ellipse.svg" alt="" class=about-me-circle>
+                <img src="images/Ellipse.svg" alt=""class=about-me-circle2>
+                <img src="images/Profile Ellipse.svg" alt="" class=profile-ellipse>
             </div>
-            <a href="#" class="btn-social-links">Social Links<i class="fas fa-link"></i></a>
+            
+            <div class="right">
+                <div class=about-me-card>
+                    <h3>Sergij Aleksovski</h3>
+                    <p>
+                        &emsp;&emsp; Hi I'm Sergij Aleksovski, a 14 years old boy who learns and is <br>
+                        programming. I personally really like programming including fixing <br>
+                        computers and other devices. I also really like to design and I am a <br>
+                        creative person. <br>
+                        &emsp;&emsp; My YouTube channel currently has more than 300 subscribers. <br>
+                        I hope you will like my projects on GitHub, Btw I have only 3 <br>
+                        repositories now. Thanks for the attention!
+                    </p>
+                    <a href="https://biglink.to/sapcpro-links" class="btn-social-links">Social Links<i class="fas fa-link"></i></a>
+                </div>
+            </div>
         </section>
     </div>
 
     <!-- End of About me -->
 
-    <section class="my-top-project">
+    <section class="my-top-project" id="my-top-project">
         <div class="wrapper">
             <h2>My Top Project</h2>
             <div class="top-project">
@@ -123,50 +130,52 @@
                 <div class="project-info">
                     <h3>Pong</h3>
                     <p>A simple (But Cool) Pong Video Game</p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    <a href="https://github.com/Sergij-SApcPro/Pong"><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
-            <a href="#" class="large-btn">See all on GitHub<i class="fab fa-github-alt"></i></a>
+            <a href="https://github.com/Sergij-SApcPro" class="large-btn">See all on GitHub<i class="fab fa-github-alt"></i></a>
         </div>
     </section>
 
     <!-- End of My Top Project Section -->
 
-    <section class="contact-me">
+    <section class="contact-me" id="contact-me">
         <div class="wrapper">
             <h2>Contact me</h2>
-            <div class="my-email">
+            <div class="contact-me-card">
                 <h3>My Email</h3>
-                <p>sergijaleksovski@yahoo.com</p>
-                <a href="#" class="copy-btn">Copy email</a>
-            </div>
-            <div class="social-links">
-                <h3>Social Links</h3>
-                <ul>
-                    <li>
-                        <a href="#" class="facebook-icon">Facebook Site<i class="fab fa-facebook"></i></a>
-                    </li>
+                <div class="my-email">
+                    <p>sergijaleksovski@yahoo.com</p>
+                    <a href="#" class="copy-btn">Copy email</a>
+                </div>
+                <div class="social-links">
+                    <h3>Social Links</h3>
+                    <ul class="social-links-list">
+                        <li>
+                            <a href="https://www.facebook.com/SergijAleksovski" class="facebook-icon">Facebook Site<i class="fab fa-facebook"></i></a>
+                        </li>
     
-                    <li>
-                        <a href="#" class="instagram-icon">Instagram<i class="fab fa-instagram"></i></a>
-                    </li>
+                        <li>
+                            <a href="https://www.instagram.com/sergij_aleksovski/" class="instagram-icon">Instagram<i class="fab fa-instagram"></i></a>
+                        </li>
     
-                    <li>
-                        <a href="#" class="discord-icon">Discord Server<i class="fab fa-discord"></i></a>
-                    </li>
+                        <li>
+                            <a href="https://discord.com/invite/ERKdhZdfqc" class="discord-icon">Discord Server<i class="fab fa-discord"></i></a>
+                        </li>
     
-                    <li>
-                        <a href="#" class="tiktok-icon">Tiktok<i class="fab fa-tiktok"></i></a>
-                    </li>
+                        <li>
+                            <a href="https://www.tiktok.com/@sergij_sapcpro" class="tiktok-icon">Tiktok<i class="fab fa-tiktok"></i></a>
+                        </li>
     
-                    <li>
-                        <a href="#" class="twitter-icon">Twitter<i class="fab fa-twitter"></i></a>
-                    </li>
+                        <li>
+                            <a href="https://twitter.com/sergijaleksovs4" class="twitter-icon">Twitter<i class="fab fa-twitter"></i></a>
+                        </li>
     
-                    <li>
-                        <a href="#" class="element-icon">Element<img src="images/element-icon.svg" alt=""></a>
-                    </li>
-                </ul>
+                        <li>
+                            <a href="https://matrix.to/#/#sapcpro:matrix.org" class="element-icon">Element<img src="images/matrix-logo.svg" alt="" class="matrix-logo"></a>
+                        </li>
+                    </ul>
+                </div>
                 
             </div>
         </div>
@@ -180,21 +189,24 @@
         </section>
     </div>
     
-    <div class="wrapper">
-        <footer>
-            <div class="left">
-                <p>Other Sites:</p>
-                <a href="#">Blog</a>
-                <a href="#">Aleksovski Brothers Channel</a>
-            </div>
-    
-            <div class="right">
-                <p>Copyright © 2022 SApcPro, All rights reserved. <br>
-                    Website made by Sergij Aleksovski.</p>
-            </div>
-        </footer>
-    </div>
+    <footer>
+        <div class="left">
+            <p>Other Sites:</p>
+            <ul>
+                <li>
+                    <a href="https://sapcproblog.blogspot.com/">Blog</a>
+                </li>
 
-    <script src="main.js"></script>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCh16wGxPELIWC8UyacIxb_g">Aleksovski Brothers Channel</a>
+                </li>
+            </ul>
+        </div>
+    
+        <div class="right">
+            <p>Copyright © 2022 SApcPro, All rights reserved. <br>
+                Website made by Sergij Aleksovski.</p>
+        </div>
+    </footer>
 </body>
 </html>

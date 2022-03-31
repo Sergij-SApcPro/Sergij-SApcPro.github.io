@@ -299,18 +299,24 @@ section p {
     color: #000000;
 }
 
+.about-me-section {
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .about-me-card {
     position: relative;
-    width: 750px;
+    right: 140px;
+    width: 740px;
     height: 313px;
     background: linear-gradient(100.7deg, rgba(238, 166, 25, 0.49) -11.92%, rgba(238, 166, 25, 0.14) 100.41%);
     border: 5px solid #EEA619;
     box-sizing: border-box;
     backdrop-filter: blur(4px);
     border-radius: 12px;
-    top: 12px;
-    left: 270px;
-    display: grid;
     z-index: 2;
 }
 
@@ -322,6 +328,11 @@ section p {
     left: 140px;
 }
 
+.about-me-title {
+    position: relative;
+    top: 40px;
+}
+
 .about-me-section p {
     position: relative;
     left: 150px;
@@ -329,9 +340,9 @@ section p {
 }
 
 .profile-pic {
-    position: absolute;
-    top: 833px;
-    left: 216.3px;
+    position: relative;
+    top: 133px;
+    left: 124px;
     width: 257px;
     height: 257px;
     filter: drop-shadow(0px 8px 24px rgba(0, 0, 0, 0.08));
@@ -339,11 +350,9 @@ section p {
 }
 
 .profile-ellipse {
-    position: absolute;
-    top: 833px;
-    left: 220px;
+    position: relative; 
+    bottom: 128px;
     width: 250px;
-    height: 250px;
     z-index: 1;
 }
 
@@ -356,8 +365,8 @@ section p {
     border: 4px solid var(--dark-green-color);
     text-decoration: none;
     color: var(--dark-green-color);
-    bottom: 14px;
-    left: 780px;
+    bottom: 12px;
+    left: 500px;
     z-index: 3;
 }
 
@@ -366,18 +375,19 @@ section p {
 }
 
 .about-me-circle {
-    position: absolute;
-    top: 740px;
-    left: 420px;
+    position: relative;
+    width: 120px;
+    bottom: 100px;
+    left: 550px;
     z-index: 1;
 }
 
 .about-me-circle2 {
-    position: absolute;
-    width:  120px;
+    position: relative;
+    width: 120px;
     height: 120px;
-    top: 740px;
-    right: 280px;
+    bottom: 40px;
+    left: 400px;
     z-index: 1;
 }
 
@@ -405,16 +415,9 @@ section p {
     background: var(--glass-morphism);
 }
 
-.circle-btn {
-    position: relative;
-    width: 400px;
-    height: 400px;
-    
-}
-
 .fa-external-link-alt {
     position: relative;
-    bottom: 74px;
+    bottom: 100px;
     left: 690px;
     width: 70px;
     height: 70px;
@@ -425,4 +428,244 @@ section p {
     background: var(--yellow-color);
     box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
     border-radius: 100px;
+}
+
+.top-project h3 {
+    font-family: Lexend Peta;
+    font-weight: normal;
+    padding: 0px 20px;
+    font-size: 28px;
+    letter-spacing: -0.11em;
+    color: var(--yellow-color);
+    text-shadow: 4px 10px 12px rgba(0, 0, 0, 0.2);
+}
+
+.top-project p {
+    position: relative;
+    bottom: 20px;
+    font-family: Lato;
+    font-weight: normal;
+    color: var(--dark-green-color);    
+    padding: 0px 22px;
+}
+
+.large-btn {
+    position: relative;
+    bottom: 140px;
+    left: 442px;
+    background: var(--yellow-color);
+    border: 4px solid var(--dark-green-color);
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: var(--dark-green-color);
+    text-decoration: none;
+    padding: 8px;
+}
+
+.fa-github-alt {
+    color: var(--dark-green-color);
+    padding: 2px;
+}
+
+.contact-me {
+    position: relative;
+    bottom: 120px;
+}
+
+.contact-me h3 {
+    position: relative;
+    padding: 20px 40px;
+    font-size: 24px;
+    color: var(--dark-green-color);
+}
+
+.contact-me-card {
+    position: relative;
+    background: linear-gradient(103.67deg, rgba(238, 166, 25, 0.49) -5.39%, rgba(238, 166, 25, 0.14) 113.23%);
+    box-sizing: border-box;
+    backdrop-filter: blur(30px);
+    border: 4px solid var(--yellow-color);
+    border-radius: 10px;
+    width: 880px;
+    height: 400px;
+    left: 126.1px;
+    z-index: 2;
+}
+
+.contact-me-circle {
+    position: relative;
+    top: 200px;
+    z-index: 1;
+}
+
+.contact-me-circle2 {
+    position: relative;
+    top: 200px;
+    z-index: 1;
+}
+
+.my-email {
+    position: relative;
+    width: 700px;
+    height: 42px;
+    left: 84px;
+    bottom: 12px;
+    background: var(--yellow-color);
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 4px solid var(--dark-green-color);
+}
+
+.my-email p {
+    position: relative;
+    left: 20px;
+    bottom: 12.4px;
+}
+
+.copy-btn {
+    position: relative;
+    left: 600px;
+    bottom: 50px;
+    padding: 10px;
+    height: 42px;
+    background: var(--dark-green-color);
+    border-radius: 0px 10px 10px 0px;
+    text-decoration: none;
+    color: var(--turquoise-color);
+    font-family: Lato;
+}
+
+.social-links h3 {
+    position: relative;
+    bottom: 24px;
+}
+.social-links-list {
+    position: relative;
+    top: 10px;
+    list-style: none;
+    display: inline;
+    font-family: Lato;
+}
+
+.social-links-list li {
+    display: inline;
+}
+
+.facebook-icon {
+    text-decoration: none;
+    list-style: none;
+}
+
+.instagram-icon {
+    text-decoration: none;
+}
+
+.discord-icon {
+    text-decoration: none;
+}
+
+.tiktok-icon {
+    text-decoration: none;
+}
+
+.twitter-icon {
+    text-decoration: none;
+}
+
+.element-icon {
+    text-decoration: none;
+}
+
+.fa-facebook {
+    position: relative;
+    font-size: 60px;
+    right: 80.3px;
+    bottom: 50px;
+    color: #4267B2;
+}
+
+.fa-instagram {
+    position: relative;
+    font-size: 60px;
+    right: 60.3px;
+    bottom: 50px;
+    color: #F77737;
+}
+
+.fa-discord {
+    position: relative;
+    font-size: 60px;
+    right: 90.3px;
+    bottom: 50px;
+    color: blueviolet;
+}
+
+.fa-tiktok {
+    position: relative;
+    font-size: 60px;
+    right: 42px;
+    bottom: 50px;
+    color: #ff0050;
+}
+
+.fa-twitter {
+    position: relative;
+    font-size: 60px;
+    right: 50px;
+    bottom: 50px;
+    color: #1DA1F2;
+}
+
+.matrix-logo {
+    position: relative;
+    right: 69.3px;
+    bottom: 50px;
+    width: 80px;
+}
+
+.credits {
+    position: relative;
+    bottom: 72px;
+}
+
+.credits h2 {
+    font-family: Lato;
+    font-weight: normal;
+    letter-spacing: 0px;
+    color: var(--dark-green-color);
+}
+
+footer {
+    height: 178.8px;
+    background: var(--dark-green-color);
+    color: var(--turquoise-color);
+}
+
+footer p {
+    font-family: Lato;
+    font-size: 20px;
+}
+
+footer .left{
+    position: relative;
+    top: 42px;
+    left: 100px;
+    width: 457px;
+}
+
+footer .left a {
+    position: relative;
+    bottom: 4px;
+    text-decoration: none;
+    font-family: Lato;
+    font-weight: normal;
+    font-size: 20px;
+    color: var(--yellow-color);
+}
+
+footer .right{
+    position: relative;
+    right: 100px;
+    bottom: 40px;
+    text-align: right;
 }
